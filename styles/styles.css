@@ -1,0 +1,74 @@
+/* common shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.section-title{
+    display: flex;
+    text-align: center;
+
+}
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 40px 30px 50px 200px;
+    display: flex;
+    align-items: center;
+
+}
+.banner .profile-pic
+{
+width: 400px;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.section-title{
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+}
+.section-description{
+    display: flex;
+
+}
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+main section{
+    margin-top: 500px;
+}
+.our featured{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FF8F3;
+}
+.btn-primary{
+    border-radius:  5px;
+    background: red;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* images related styles */
+.image-container{
+    display: flex;
+}
+.image-common name{
+    padding: 30px;
+}
